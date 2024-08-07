@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LootSpace369\libMagic;
+namespace LootSpace369\libMagic\pack;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\resourcepacks\ZippedResourcePack;
