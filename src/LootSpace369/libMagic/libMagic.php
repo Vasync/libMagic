@@ -6,6 +6,7 @@ namespace LootSpace369\libMagic;
 
 use pocketmine\plugin\PluginBase;
 use LootSpace369\libMagic\pack\RegisterResourcePack;
+use LootSpace369\libMagic\math\TopLeader;
 
 final class libMagic {
     
@@ -14,5 +15,9 @@ final class libMagic {
 
     public function registerResourcePack(string $path, string $name): void {
         RegisterResourcePack::register($this->plugin, $path, $name);
+    }
+
+    public function getTopLeader(array $top): array {
+        return TopLeader::calculate($top);
     }
 }
