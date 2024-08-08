@@ -15,6 +15,8 @@
 - Async
 - ...
 
+### Supported php versions: ^8.1
+
 | Contributors| Role |
 | --- | ---|
 | LootSpace369 | Dev |
