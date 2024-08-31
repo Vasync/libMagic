@@ -1,0 +1,5 @@
+name: LibMagic
+version: 1.0.1
+api: 5.0.0
+author: Vasync(LootSpace369)
+main: LootSpace369\libMagic\Main
