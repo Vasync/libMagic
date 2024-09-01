@@ -14,7 +14,7 @@ class ItemFactory {
     
     public function get(int $id, int $meta = 0, int $count = 1, ?CompoundTag $tags = null) : Item {
         #PM3 converted
-
+        $tags ?? $tags = new CompoundTag();
         $item = LegacyStringToItemParser::getInstance()->parse($id.':'.$meta);
 
         $item->setCount($count);
